@@ -6,7 +6,7 @@ Use these files together in the repository in a clean Python environment:
 
 1. `robust_tsfms_experiment_runner.ipynb` — regenerates run-level RMSE and PICP from the SKAB source data and the three forecasting models. This is the expensive, GPU-oriented stage.
 2. `robust_tsfms_rmse_picp_results_all_runs.csv` — the archived run-level metrics used for the current paper analysis. Include it in the repository so tables can be rebuilt without rerunning models.
-3. `future_internet_2026_reproduction_code.ipynb` — validates the run-level metrics and regenerates the tables and figures. It reads the archived CSV by default. Set `USE_REGENERATED = True` to analyze a fresh runner output.
+3. `robust_tsfms_reproduction_code.ipynb` — validates the run-level metrics and regenerates the tables and figures. It reads the archived CSV by default. Set `USE_REGENERATED = True` to analyze a fresh runner output.
 
 Basic package prerequisites:
 - `pandas`
